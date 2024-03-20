@@ -300,8 +300,11 @@ footer {
     width: 100%;
   }
   .header {
-    top: 0.5em;
-    margin: 0 0.2em;
+    padding: 0 0.5em;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #1e1d2b;
   }
   .title_nav {
     margin: 0;
